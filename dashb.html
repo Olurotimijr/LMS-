@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Main Dashboard</title>
+</head>
+<body class="aramhi">
+
+        <!-- sidebar section  -->
+        <d class="container">
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon" id="icon"><img src="Assets/fmmc-removebg-preview.png" width="40px" alt=""></span>
+                            <span class="title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="people-outline"></ion-icon></span>
+                            <span class="title">Reports</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="bed-outline"></ion-icon></span>
+                            <span class="title">Wards</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                            <span class="title">Test</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                            <span class="title">Specimen</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="Analytics"></ion-icon></span>
+                            <span class="title">Analytics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><ion-icon name="log-out-outline"></ion-icon></span>
+                            <span class="title">Sign out</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <main>
+                <h1>Fmc <span class="state">Owo</span></h1>
+                <div class="analyse">
+                    <div class="sales">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Total Items</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-patient">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Add patient</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add-patient">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Add patient</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Dashboard">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Dashboard</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Dashboard">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Dashboard</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Dashboard">
+                        <div class="status">
+                            <div class="info">
+                                <h3>Dashboard</h3>
+                                <h1>523</h1>
+                            </div>
+                            <div class="progress">
+                                <svg>
+                                    <circle cx="38" cy="38"
+                                    r="36"></circle>
+                                </svg>
+                                <div class="percentage">
+                                    <p>+81%</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of cards -->
+                
+                
+                      
+            </main>
+            <!-- Charts / Graphs -->
+            <div class="graphBox">
+                <div class="box">   
+                    <canvas id="myChart"></canvas>
+                </div>
+                <div class="box">
+                    <canvas id="earning"></canvas>
+                </div>
+            </div>
+            <!-- charts end -->
+            
+            
+            <!-- Recently added-->
+            <div class="Everything">   
+                <div class="details">
+                    <!-- order details list -->
+                    <div class="header">
+                        <div class="cardHeader">
+                            <h2>Recent Patients</h2
+                        </div>
+                    </div>
+                        
+                <table id="table">
+                    <thead>
+                        <tr>  
+                            <td>Name</td>
+                            <td>Cost</td>
+                            <td>Receipt No</td>
+                            <td>Specimen</td>
+                            <td>Time</td>
+                            <td>Date</td>
+                            <td>card No</td>
+                            <td>Sex</td>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Jordan Olurotimi</td>
+                            <td>1000</td>
+                            <td>1011</td>
+                            <td><span class="status delivered">Urine</span></td>
+                            <td>9:18</td>
+                            <td>10/12/23</td>
+                            <td>27893</td>
+                            <td>M</td>
+                            
+                            
+                        </tr>
+                        <tr>
+                            <td>Oluwadare ayobami</td>
+                            <td>1000</td>
+                            <td>1012</td>
+                            <td><span class="status inprogress">Blood</span></td>
+                            <td>2:30</td>
+                            <td>12/10/23</td>
+                            <td>34567</td>
+                            <td>F</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Azzeez Victor</td>
+                            <td>1200</td>
+                            <td>1013</td>
+                            <td><span class="status delivered">stool</span></td>
+                            <td>5:24</td>
+                            <td>15/05/23</td>
+                            <td>345644</td>
+                           
+                        </tr>
+                        <tr>
+                            <td>Osolonge Taiwo</td>
+                            <td>6520</td>
+                            <td>1015</td>
+                            <td><span class="status return">Urea</span></td>
+                            <td>7:37</td>
+                            <td>30/05/23</td>
+                            <td>23456</td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                    <div class="add-item">
+                       <h5>View All <span class="plus" >+</span> </h5>
+                    </div>
+                </table>
+           
+            </div>
+            <!-- <li>
+                <a href="#">
+                    <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li> -->
+        </ul>
+    </div>
+</div>
+
+    </div>
+
+        </div>
+    </div>  
+     
+<!-- Main body -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="order.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js" integrity="sha512-L0Shl7nXXzIlBSUUPpxrokqq4ojqgZFQczTYlGjzONGTDAcLremjwaWv5A+EDLnxhQzY5xUZPWLOLqYRkY0Cbw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+     <script>
+        const labels = Utils.months({count: 7});
+const data = {
+  labels: labels,
+  datasets: [{
+    label: 'My First Dataset',
+    data: [65, 59, 80, 81, 56, 55, 40],
+    backgroundColor: [
+      'rgba(255, 99, 132, 0.2)',
+      'rgba(255, 159, 64, 0.2)',
+      'rgba(255, 205, 86, 0.2)',
+      'rgba(75, 192, 192, 0.2)',
+      'rgba(54, 162, 235, 0.2)',
+      'rgba(153, 102, 255, 0.2)',
+      'rgba(201, 203, 207, 0.2)'
+    ],
+    borderColor: [
+      'rgb(255, 99, 132)',
+      'rgb(255, 159, 64)',
+      'rgb(255, 205, 86)',
+      'rgb(75, 192, 192)',
+      'rgb(54, 162, 235)',
+      'rgb(153, 102, 255)',
+      'rgb(201, 203, 207)'
+    ],
+    borderWidth: 1
+  }]
+};
+     </script>
+</body>
+</html>
